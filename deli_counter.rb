@@ -12,7 +12,7 @@ def line(array)
   end
 end 
 
-def take_a_number(line = katz_deli, name)
+def take_a_number(line, name)
   line << name
   position = line.size
   puts "Welcome, #{name}. You are number #{position} in line."
