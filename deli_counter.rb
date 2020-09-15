@@ -14,7 +14,7 @@ end
 
 def take_a_number(line, name)
   line << name
-  puts "Hi"
+  print "Hi"
 end
 
 def now_serving(array)
