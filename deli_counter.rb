@@ -8,7 +8,7 @@ def line(array)
       people_in_line << "#{position + 1}. #{person}"
     end
   end
-    puts "The line is currently: #{people_in_line}"
+    puts "The line is currently: #{}"
 end 
 
 def take_a_number(line, name)
