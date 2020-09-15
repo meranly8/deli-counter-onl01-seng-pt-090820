@@ -1,4 +1,4 @@
-katz_deli = []
+# katz_deli = []
 
 def line(array)
   people_in_line = []
