@@ -1,5 +1,3 @@
-
-
 def line(array)
   people_in_line = []
   if array.size > 0 
