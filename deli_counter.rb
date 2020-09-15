@@ -14,7 +14,7 @@ end
 
 def take_a_number(katz_deli, name)
   katz_deli << name
-  index = 
+  index = name[i]
   print "#{name}, you are #{index + 1} in line"
 end
 
