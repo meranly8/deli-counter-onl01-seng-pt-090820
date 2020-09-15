@@ -1,4 +1,4 @@
-# katz_deli = []
+katz_deli = []
 
 def line(array)
   people_in_line = []
@@ -12,9 +12,9 @@ def line(array)
   end
 end 
 
-def take_a_number(line, name)
-  line << name
-  print "Hi"
+def take_a_number(katz_deli, name)
+  katz_deli << name
+  print "#{name}, you are "
 end
 
 def now_serving(array)
