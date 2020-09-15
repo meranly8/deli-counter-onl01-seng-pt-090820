@@ -15,7 +15,7 @@ end
 def take_a_number(line = katz_deli, name)
   line << name
   position = line.size
-  print "Welcome, #{name}. You are number #{position} in line."
+  puts "Welcome, #{name}. You are number #{position} in line."
 end
 
 def now_serving(array)
