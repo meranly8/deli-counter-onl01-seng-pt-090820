@@ -2,14 +2,15 @@ katz_deli = []
 
 def line(array)
   people_in_line = []
-  if array.size == 0
-    puts "The line is currently empty."
-  else
+  if array.size > 0 
     array.each_with_index do |person, position|
       people_in_line << "#{position + 1}. #{person}"
-      puts "The line is currently: #{people_in_line.join(" ")}"
     end
-  end
+  puts "The line is currently: #{people_in_line.join(" ")}"
+  else
+    puts "The line is currently empty."
+  
+  
     
 end 
 
