@@ -12,10 +12,10 @@ def line(array)
   end
 end 
 
-def take_a_number(katz_deli, name)
-  katz_deli << name
-  index = name[i]
-  print "#{name}, you are #{index + 1} in line"
+def take_a_number(line, name)
+  line << name
+  position = line.size
+  print "#{name}, you are #{position} in line"
 end
 
 def now_serving(array)
