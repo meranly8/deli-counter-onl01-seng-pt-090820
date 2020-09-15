@@ -1,12 +1,12 @@
-katz_deli = []
+
 
 def line(array)
-  people_in_line = []
+  katz_deli = []
   if array.size > 0 
     array.each_with_index do |person, position|
-      people_in_line << "#{position + 1}. #{person}"
+      katz_deli << "#{position + 1}. #{person}"
     end
-  puts "The line is currently: #{people_in_line.join(" ")}"
+  puts "The line is currently: #{katz_deli.join(" ")}"
   else
     puts "The line is currently empty."
   end
