@@ -6,6 +6,7 @@ def line(array)
   else
     array.each_with_index do |person, position|
       people_in_line << "#{position + 1}. #{person}"
+    end
   end
     puts "The line is currently: #{people_in_line}"
 end 
