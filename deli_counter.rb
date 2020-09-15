@@ -5,11 +5,11 @@ def line(array)
   if array.size == 0
     puts "The line is currently empty."
   else
-  array.each do |position|
-    
+    array.each_with_index do |person, position|
+      puts "The line is currently: #{position + 1}. #{person}"
   end
   
-  puts "The line is currently: "
+  
   end
 end 
 
